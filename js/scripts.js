@@ -1,17 +1,19 @@
 $(document).ready(function() {
 /*--TOP--*/
 
-  $("#name-start").click(function(){
+/*  $("#name-start").click(function(){
     $("#epicodus-track").show();
     });
+*/
+$("#input").submit(function(event) {
+    name = $("input#name").val();
 
-  $("form#input-group").submit(function(event) {
     event.preventDefault();
-    var name = $("input#name").val();
     });
 
 
 
+/*  $("#address-results").show();*/
 
 /*--BOTTOM--*/
 });

@@ -22,13 +22,22 @@
             <p>Choosing the right programming track at Epicodus can be daunting whether you've got some experience under your belt or you've never programmed before. This short quiz aims to aid you in the consideration process.</p>
             <h3>Before we get started let's get to know each other!  Enter your name to begin the quiz.</h3>
           </div> <!-- end-intro-->
-          <form id="input-group"> <!--Begin-Input-Group-->
-            <input id="name" type="text" class="form-control" placeholder="Your name:">
-            <span class="input-group-btn">
-            <button id="name-start" class="btn btn-default" type="button">Go!</button>
-            </span>
+          <form id="input"> <!--Begin-Input-Group-->
+            <div class="name">
+              <label for="name">Enter your name:</label>
+              <input id="name" class="form-control" type="text">
+              <button type="submit" class="btn">Enter</button>
+            </div>
           </form> <!-- End-Input-Group-->
         </div> <!--Row 1 Column 2 End-->
+
+
+
+
+
+
+
+
 
 
 
@@ -108,7 +117,7 @@
 
         <div class="col-md-10"> <!--Row 3 Column 2 Begin-->
 
-            <div class="address-results">
+            <div id="address-results">
               <p> Hey, <strong><span id="name"></span></strong>based on your answers it looks like the <strong><span id="track"></span></strong> track is right for you. Learn more about all of the tracks below or at <a href="https://epicodus.com">Epicodus.com.</a> </p>
               <p>Remember that the mission of Epicodus is to <em>teach you how to learn</em> programming. Whichever track you choose, your time at Epicodus will likely be just the begining of a lifetime of learning about programming!</p>
             </div>

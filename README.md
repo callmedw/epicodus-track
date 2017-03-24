@@ -1,6 +1,6 @@
 # Epicodus Track Quiz
 
-#### A short quiz to guide in the consideration of choosing between language tracks at EpicodusPDX, March 24, 2017
+#### A short quiz to guide a user through choosing between language tracks at EpicodusPDX, March 24, 2017
 
 #### By Dana Weiss under the watchful eye of EpicodusPDX
 
