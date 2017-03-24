@@ -7,6 +7,9 @@ $(document).ready(function() {
 */
 $("#input").submit(function(event) {
     name = $("input#name").val();
+     $(".name").text(name);
+
+
 
     event.preventDefault();
     });
