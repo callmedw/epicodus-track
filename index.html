@@ -19,14 +19,15 @@
           <div class="intro"> <!--intro-->
             <h1>Hello!</h1>
             <h2>Welcome to the Epicodus Track Suggestor</h2>
-            <p>Choosing the right programming track at Epicodus can be daunting whether you've got some experience under your belt or you've never programmed before. This short quiz aims to aid you in the consideration process. Remember that the mission of Epicodus is to teach you how to learn programming, so whichever track you choose, your time here, at Epidocus, will be just the begining of a lifetime of a learning to programming! </p>
+            <p>Choosing the right programming track at Epicodus can be daunting whether you've got some experience under your belt or you've never programmed before. This short quiz aims to aid you in the consideration process.</p>
+            <h3>Before we get started let's get to know each other!  Enter your name to begin the quiz.</h3>
           </div> <!-- end-intro-->
-          <div class="input-group"> <!--Begin-Input-Group-->
+          <form id="input-group"> <!--Begin-Input-Group-->
             <input id="name" type="text" class="form-control" placeholder="Your name:">
             <span class="input-group-btn">
-            <button class="btn btn-default" type="button">Go!</button>
+            <button id="name-start" class="btn btn-default" type="button">Go!</button>
             </span>
-          </div> <!-- End-Input-Group-->
+          </form> <!-- End-Input-Group-->
         </div> <!--Row 1 Column 2 End-->
 
 
@@ -46,9 +47,9 @@
             <label for="question1">What is the most ideal size of the company you see yourself working for upon graduating Epicodus?</label>
             <select id="question1">
               <option value="">Choose the best answer...</option>
-              <option value="big">Big! Microsoft Big.</option>
-              <option value="small">I'd prefer smaller companies and startups.</option>
-              <option value="nopref">I'm planning on freelancing or I have no preference.</option>
+              <option value="1">Big! Microsoft Big.</option>
+              <option value="2">I'd prefer smaller companies and startups.</option>
+              <option value="2">I'm planning on freelancing or I have no preference.</option>
             </select>
               <br>
             <label for="question2">Which aspect of programming appeals to you most?</label>
@@ -91,10 +92,8 @@
               <option value="Pisces">Pisces</option>
             </select>
 
-
-
             <p>
-              <button type="submit" class="btn btn-success">Which path should I take?</button>
+              <button type="submit" class="btn primary">Which path should I take?</button>
             </p>
           </form>
         </div> <!--Row 2 Column 2 End-->
@@ -108,6 +107,13 @@
         </div> <!--Row 3 Column 1 End-->
 
         <div class="col-md-10"> <!--Row 3 Column 2 Begin-->
+
+            <div class="address-results">
+              <p> Hey, <strong><span id="name"></span></strong>based on your answers it looks like the <strong><span id="track"></span></strong> track is right for you. Learn more about all of the tracks below or at <a href="https://epicodus.com">Epicodus.com.</a> </p>
+              <p>Remember that the mission of Epicodus is to <em>teach you how to learn</em> programming. Whichever track you choose, your time at Epicodus will likely be just the begining of a lifetime of learning about programming!</p>
+            </div>
+
+
         </div> <!--Row 3 Column 2 End-->
 
         <div class="col-md-1"> <!--Row 3 Column 3 Begin-->
