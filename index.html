@@ -12,21 +12,36 @@
     <div class="container">
 <!--*-TOP--->
       <div class="row"> <!--Row 1 Begin-->
-        <div class="intro"> <!--intro-->
-          <h1>Hello!</h1>
-          <h2>Welcome to the Epicodus Track Suggestor</h2>
-          <p>Choosing the right programming track at Epicodus can be daunting whether you've got some experience under your belt or you've never programmed before. This short quiz aims to aid you in the consideration process. Remember that the mission of Epicodus is to teach you how to learn programming, so whichever track you choose, your time here, at Epidocus, will be just the begining of a lifetime of a learning to programming! </p>
-        </div> <!-- end-intro-->
-      </div> <!--Row 1 Column 1 End-->
+        <div class="col-md-1"> <!--Row 1 Column 1 Begin-->
+        </div> <!--Row 1 Column 1 End-->
+
+        <div class="col-md-10"> <!--Row 1 Column 2 Begin-->
+          <div class="intro"> <!--intro-->
+            <h1>Hello!</h1>
+            <h2>Welcome to the Epicodus Track Suggestor</h2>
+            <p>Choosing the right programming track at Epicodus can be daunting whether you've got some experience under your belt or you've never programmed before. This short quiz aims to aid you in the consideration process. Remember that the mission of Epicodus is to teach you how to learn programming, so whichever track you choose, your time here, at Epidocus, will be just the begining of a lifetime of a learning to programming! </p>
+          </div> <!-- end-intro-->
+          <div class="input-group"> <!--Begin-Input-Group-->
+            <input id="name" type="text" class="form-control" placeholder="Your name:">
+            <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+            </span>
+          </div> <!-- End-Input-Group-->
+        </div> <!--Row 1 Column 2 End-->
+
+
+
+        <div class="col-md-1"> <!--Row 1 Column 3 Begin-->
+        </div> <!--Row 1 Column 3 End-->
+      </div> <!--Row 1 End-->
+
 
       <div class="row"> <!--Row 2 Begin-->
         <div class="col-md-1"> <!--Row 2 Column 1 Begin-->
         </div> <!--Row 2 Column 1 End-->
 
         <div class="col-md-10"> <!--Row 2 Column 2 Begin-->
-          <form id="insurance">
-            <label for="name">Your Name:</label>
-            <input id="name" type="text">
+          <form id="epicodus-track">
               <br>
             <label for="question1">What is the most ideal size of the company you see yourself working for upon graduating Epicodus?</label>
             <select id="question1">
@@ -62,18 +77,18 @@
             <label for="question5">What is your astrological sign?</label>
             <select id="question5">
               <option value="">Pick one...</option>
-              <option value="Aries">I like seeing how something works. The nuts and bolts.</option>
-              <option value="Gemini">I enjoy the act of creating an aesthetically pleasing and user friendly designs.</option>
-              <option value="Taurus">I like the idea of designing how users interact with an application.</option>
-              <option value="Cancer">I like the idea of designing how users interact with an application.</option>
-              <option value="Leo">I like the idea of designing how users interact with an application.</option>
-              <option value="Virgo">I like the idea of designing how users interact with an application.</option>
-              <option value="Libra">I like the idea of designing how users interact with an application.</option>
-              <option value="Scorpio">I like the idea of designing how users interact with an application.</option>
-              <option value="Sagittarius">I like the idea of designing how users interact with an application.</option>
-              <option value="Capricorn">I like the idea of designing how users interact with an application.</option>
-              <option value="Aquarius">I like the idea of designing how users interact with an application.</option>
-              <option value="Pisces">I like the idea of designing how users interact with an application.</option>
+              <option value="Aries">Aries</option>
+              <option value="Gemini">Gemini</option>
+              <option value="Taurus">Taurus</option>
+              <option value="Cancer">Cancer</option>
+              <option value="Leo">Leo</option>
+              <option value="Virgo">Virgo</option>
+              <option value="Libra">Libra</option>
+              <option value="Scorpio">Scorpio</option>
+              <option value="Sagittarius">Sagittarius</option>
+              <option value="Capricorn">Capricorn</option>
+              <option value="Aquarius">Aquarius</option>
+              <option value="Pisces">Pisces</option>
             </select>
 
 
