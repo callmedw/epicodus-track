@@ -1,11 +1,19 @@
 body {
+  background: url("img/womanatthefork.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+#address-results, #address-results1, #address-results2 {
+  display: none;
 }
 
-/*#epicodus-track {
-  display: none
+.intro {
+  background-color: gray;
+  opacity: .9;
 }
-
-.address-results {
-  display: none
+button {
+  margin: 10px;
 }
